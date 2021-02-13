@@ -91,7 +91,7 @@ export default () => {
   return (
     <>
       <Header>
-        <Title>Bryan Fan Voice Notes</Title>
+        <Title>Bryan Fan Voice Record Notes</Title>
         <SignOutButton
           onClick={() => {
             Auth.signOut().then(() => window.location.reload());

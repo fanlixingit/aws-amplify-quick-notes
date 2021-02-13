@@ -67,7 +67,7 @@ function App() {
     <Screens />
   ) : (
     <>
-      <Title>Bryan Fan Voice Notes</Title>
+      <Title>Bryan Fan Voice Record Notes</Title>
       <Authenticator
         onStateChange={authState => {
           if (authState === "signedIn") {
